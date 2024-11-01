@@ -43,25 +43,26 @@ const App: React.FC = () => {
         }}
         onLayout={startAnimation}
       >
-        <Button title="Home" color="brown" onPress={startAnimation} titleStyle={{ color: 'black' }} />
-        <Button title="Learnership" color="brown" onPress={startAnimation} titleStyle={{ color: 'black' }} />
-        <Button title="Short Courses" color="brown" onPress={startAnimation} titleStyle={{ color: 'black' }} />
-        <Button title="Booking" color="brown" onPress={startAnimation} titleStyle={{ color: 'black' }} />
-        <Button title="Contact Us" color="brown" onPress={startAnimation} titleStyle={{ color: 'black' }} />
+        <Button title="Home" color="brown" onPress={startAnimation} />
+        <Button title="Learnership" color="brown" onPress={startAnimation} />
+        <Button title="Short Courses" color ="brown" onPress={startAnimation} />
+        <Button title="Booking" color="brown" onPress={startAnimation} />
+        <Button title="Contact Us" color="brown" onPress={startAnimation} />
       </Animated.View>
 
-      {/* Main Content */}
-      <View style={{ flex: 1, justifyContent: 'flex-start', alignItems: 'center', padding: 20, backgroundColor: 'white' }}>
-        <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 10 }}>Our Mission</Text>
+      <View style={{ flex: 1, alignItems: 'center', padding: 20, backgroundColor: 'white' }}>
+        <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 10 }}>Cooking</Text>
+        <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 10 }}>Cost: R750</Text>
         <View style={{ borderBottomWidth: 2, borderBottomColor: 'darkbrown', width: '100%', marginBottom: 10 }} />
         <Text style={{ marginBottom: 10 }}>
-          Empowering the Nation was founded in 2018 and provides courses in
-          Johannesburg. Numerous domestic workers and gardeners have received
-          training through both the six-month Learnerships and the six-week
-          Short Skills Training Programmes to enhance their skills and
-          increase their marketability.
+        The short course teaches you how to prepare and cook nutritious family meals.
         </Text>
-        <View style={{ borderBottomWidth: 2, borderBottomColor: 'darkbrown', width: '100%' }} />
+        <Text style={{ marginBottom: 5 }}>- Nutritional requirements for a healthy body</Text>
+        <Text style={{ marginBottom: 5 }}>- Types of protein,carbohydrates and vegetables</Text>
+        <Text style={{ marginBottom: 5 }}>- Planning meals</Text>
+        <Text style={{ marginBottom: 5 }}>- Preparation and cooking of meals</Text>
+        <View style={{ borderBottomWidth: 2, borderBottomColor: 'darkbrown', width: '100%', marginTop: 10 }} />
+       
       </View>
 
       {/* Footer */}
