@@ -49,20 +49,23 @@ const App: React.FC = () => {
       </Animated.View>
 
       <View style={{ flex: 1, alignItems: 'center', padding: 20, backgroundColor: 'white' }}>
-        <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 10 }}>Garden Maintence</Text>
+        <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 10 }}>Cooking</Text>
         <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 10 }}>Cost: R750</Text>
         <View style={{ borderBottomWidth: 2, borderBottomColor: 'darkbrown', width: '100%', marginBottom: 10 }} />
         <Text style={{ marginBottom: 10 }}>
-      The short course provides basic knowledge of watering, pruning, and
-      planting in a domestic garden.
+        The short course teaches you how to prepare and cook nutritious family meals.
         </Text>
         <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 10 }}>What you will learn:</Text>
+        <View>
+  <Text style={{ marginBottom: 5 }}>- Nutritional requirements for a healthy body</Text>
+  <Text style={{ marginBottom: 5 }}>- Types of protein, carbohydrates and vegetables</Text>
+  <Text style={{ marginBottom: 5 }}>- Planning meals</Text>
+  <Text style={{ marginBottom: 5 }}>- Preparation and cooking of meals</Text>
+</View>
 
-        <Text style={{ marginBottom: 5 }}>- Watering restrictions and the water requirements of indigenous and exotic plants</Text>
-        <Text style={{ marginBottom: 5 }}>- Pruning and propagation of plants</Text>
-        <Text style={{ marginBottom: 5 }}>- Planting techniques for different plant types</Text>
 
-       
+
+
      
         
         {/* Added Buttons with Spacing and Alignment */}
@@ -80,7 +83,7 @@ const App: React.FC = () => {
 
       {/* Footer */}
       <View style={{ backgroundColor: 'black', padding: 20, alignItems: 'center' }}>
-        <Text style={{ color: 'grey' }}>Empowering the Nation</Text>
+        <Text style={{ color: 'grey' }}>Empowering the Nation,Empowering the Nation</Text>
       </View>
     </View>
   );

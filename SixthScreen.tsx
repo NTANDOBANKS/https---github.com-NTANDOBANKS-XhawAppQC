@@ -53,15 +53,18 @@ const App: React.FC = () => {
         <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 10 }}>Cost: R750</Text>
         <View style={{ borderBottomWidth: 2, borderBottomColor: 'darkbrown', width: '100%', marginBottom: 10 }} />
         <Text style={{ marginBottom: 10 }}>
-      The short course teaches you how to prepare and cook nutritious meals.
+        The short course teaches basic child and baby care.
         </Text>
         <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 10 }}>What you will learn:</Text>
 
-        <Text style={{ marginBottom: 5 }}>- Birth to six-month-old baby needs</Text>
-        <Text style={{ marginBottom: 5 }}>- Seven-month to one-year-old needs</Text>
-        <Text style={{ marginBottom: 5 }}>- Toddler needs</Text>
-        <Text style={{ marginBottom: 5 }}>- Educational Toys</Text>
-        <View style={{ borderBottomWidth: 2, borderBottomColor: 'darkbrown', width: '100%', marginTop: 10 }} />
+        <View>
+  <Text style={{ marginBottom: 5 }}>- Birth to six-month-old baby needs</Text>
+  <Text style={{ marginBottom: 5 }}>- Seven-month to one-year-old needs</Text>
+  <Text style={{ marginBottom: 5 }}>- Toddler needs</Text>
+  <Text style={{ marginBottom: 5 }}>- Educational Toys</Text>
+</View>
+
+
 
      
         
@@ -80,7 +83,7 @@ const App: React.FC = () => {
 
       {/* Footer */}
       <View style={{ backgroundColor: 'black', padding: 20, alignItems: 'center' }}>
-        <Text style={{ color: 'grey' }}>Empowering the Nation</Text>
+        <Text style={{ color: 'grey' }}>Empowering the Nation,Empowering the Nation</Text>
       </View>
     </View>
   );
